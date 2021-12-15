@@ -13,8 +13,24 @@
 <body>
     <div id="root"></div>
     <script type="text/babel">
+
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+var myLayout = React.createElement('div', 
+{className: "main-content"},
+React.createElement('div', {className:"yellow"},
+React.createElement('div', {className:"box"}, '', null),
+React.createElement('div', {className:"box"}, '', null),
+null),
+React.createElement('div', {className:"red"},
+React.createElement('div', {className:"box"}, '', null),
+null),
+React.createElement('div', {className:"blue"},
+React.createElement('div', {className:"box"}, '', null),
+React.createElement('div', {className:"box"}, '', null),
+React.createElement('div', {className:"box"}, '', null),
+null),
+)
+ ReactDOM.render(myLayout,document.getElementById('root'));
 
 </script>
 <!--
