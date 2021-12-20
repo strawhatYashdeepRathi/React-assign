@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+ display: flex;
+ flex-direction: column;
+ margin-top: 40px;
+
+
+}
+
+.title-container h1{
+  color: skyblue;
+  margin-left: 46.90%;
+}
+.avatar{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.profile-info-container{
+  margin-left: 15px;
+  text-align: left;
+}
+
+.profile-info-container label{
+  font-size: 13px;
+  color: rgb(126, 142, 158);
+}
+
+.profile-info-container label, .profile-info-container strong{
+  display: block;
+  margin-left: 47%;
+} 

@@ -1,1 +1,87 @@
-
+html{
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.yellow .box{
+    background-color: yellow;
+    min-height: 150px;
+    margin: 20px;
+}
+.red .box{
+    background-color: rgb(255, 108, 103);
+    min-height: 350px;
+    margin: 20px;
+}
+.blue .box{
+    background-color: rgb(77, 213, 255);
+    min-height: 150px;
+    margin: 20px;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+    .yellow .box{
+        background-color: yellow;
+        min-height: 150px;
+        margin: 20px;
+    }
+    .red .box{
+        background-color: rgb(255, 108, 103);
+        min-height: 350px;
+        margin: 20px;
+    }
+    .blue .box{
+        background-color: rgb(77, 213, 255);
+        min-height: 150px;
+        margin: 20px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .yellow{
+        display: flex;
+    }
+    .yellow .box{
+        background-color: yellow;
+        min-height: 150px;
+        margin: 20px;
+        min-width: 45.7%;
+    }
+    .red .box{
+        background-color: rgb(255, 108, 103);
+        min-height: 350px;
+        margin: 20px;
+    }
+    .blue .box{
+        background-color: rgb(77, 213, 255);
+        min-height: 150px;
+        margin: 20px;
+    }
+}
+@media only screen and (min-width:1024px){
+    .yellow{
+        display: flex;
+    }
+    .yellow .box{
+        background-color: yellow;
+        min-height: 150px;
+        margin: 20px;
+        min-width: 45.7%;
+    }
+    .red .box{
+        background-color: rgb(255, 108, 103);
+        min-height: 350px;
+        margin: 20px;
+    }
+    .blue{
+        display: flex;
+    }
+    .blue .box{
+        background-color: rgb(77, 213, 255);
+        min-height: 150px;
+        margin: 20px;
+        min-width: 30%;
+    }
+}
