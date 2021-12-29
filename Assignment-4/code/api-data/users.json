@@ -1,0 +1,27 @@
+{
+    "user":
+                [
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Kick start your career",
+            "PostImage":"https://picsum.photos/300/300?random=75",
+            
+            "date":1317826080
+            },
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "Sample Description",
+            "PostImage": "https://picsum.photos/300/300?random=2",
+            "date":1317826080
+            },
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "Sample Description for Post",
+            "PostImage": "https://picsum.photos/300/300?random=29",
+            "date":1317826080
+            }
+            ]
+}

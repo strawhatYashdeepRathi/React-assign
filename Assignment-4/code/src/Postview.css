@@ -9,3 +9,22 @@ body {
   color: black;
   margin:0;
 } 
+.three-dots{
+  margin-left: 90%;
+}
+.text-muted{
+  text-align: left;
+  background-color: white;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.like-button{
+  border: none;
+  background-color: white;
+}
+.date-created{
+  margin-left: 70%;
+}
+.location{
+  color: gray;
+}
