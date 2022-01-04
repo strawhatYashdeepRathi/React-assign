@@ -1,0 +1,42 @@
+.site-container{
+    text-align: center;
+  }
+  html {
+    font-size: 14px;
+  }
+  body {
+    line-height: 1.5;
+    color: black;
+    margin:0;
+  } 
+  .three-dots{
+    margin-left: 90%;
+  }
+  .img{
+    margin-left: 0%;
+    width: auto;
+    height: auto;
+}
+  .three-dots1{
+    border: none;
+    background-color: rgb(247, 247, 247);
+    float: right
+  }
+  .text-muted{
+    text-align: left;
+    background-color: white;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .like-button{
+    float: left;
+    border: none;
+    background-color: white;
+  }
+  .date-created{
+    float: right;
+  }
+  .location{
+    color: gray;
+  }
+  

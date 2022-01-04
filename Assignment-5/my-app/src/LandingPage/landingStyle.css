@@ -1,0 +1,32 @@
+
+  html {
+    font-size: 14px;
+  }
+  body {
+    line-height: 1.5;
+    color: black;
+    margin:0;
+  } 
+.head{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    margin-top: 0;
+}
+img{
+    height: 27%;
+    width: 27%;
+    margin-left: 25%;
+}
+.button{
+    position: absolute;
+    padding: 15px 30px;
+    background-color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    margin-top: 10%;
+    margin-left: 15%;
+}
